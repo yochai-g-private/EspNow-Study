@@ -1,8 +1,16 @@
 {
     "folders": [
         {
-            "name": "Shaon",
-            "path": "Shaon"
+            "name": "TestAsynchReceive",
+            "path": "TestAsynchReceive"
+        },
+        {
+            "name": "GetMAC",
+            "path": "..\\..\\..\\PlatformIO\\Projects\\GetMAC"
+        },
+        {
+            "name": "EspNowTest",
+            "path": "EspNowTest"
         }
     ],
     "settings": {
