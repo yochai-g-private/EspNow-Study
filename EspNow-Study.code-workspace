@@ -1,18 +1,19 @@
 {
     "folders": [
         {
-            "name": "TestAsynchReceive",
-            "path": "TestAsynchReceive"
-        },
-        {
-            "name": "GetMAC",
-            "path": "..\\..\\..\\PlatformIO\\Projects\\GetMAC"
-        },
-        {
             "name": "EspNowTest",
             "path": "EspNowTest"
+        },
+        {
+            "name": "TestAsynchReceive",
+            "path": "TestAsynchReceive"
         }
     ],
     "settings": {
+        "files.associations": {
+            "*.tcc": "cpp",
+            "string": "cpp",
+            "random": "cpp"
+        }
        }
 }

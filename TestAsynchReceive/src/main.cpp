@@ -6,7 +6,6 @@
 #include <espnow.h>
 
 #if 0
-
 D1 Mini PRO: 50:02:91:E9:D1:74
 
 WeMos Mini:  
@@ -19,9 +18,8 @@ WeMos Mini:
 6:  48:3F:DA:73:FC:1F
 7:  48:3F:DA:66:39:68
 
-
-
 #endif //0
+
 const char  sender_MAC_str[]    = "48:3F:DA:74:27:D2",
             receiver_MAC_str[]  = "FC:F5:C4:A9:F2:5F";
 
