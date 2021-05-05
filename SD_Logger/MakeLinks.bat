@@ -12,6 +12,7 @@ set Libraries=..\..\..\Libraries\
 ::============================================
 
 call :Link_LIB      NYG
+call :Link_LIB      SD
 
 call :Link_NYG              NYG
 call :Link_NYG              Defines
@@ -20,7 +21,10 @@ call :Link_NYG              Types
 call :Link_NYG              SystemFacilities
 call :Link_NYG              Logger
 
-call :Link_NYG              EspNet
+call :Link_NYG              IOutput
+call :Link_NYG              RedGreenLed
+call :Link_NYG              Timer
+call :Link_NYG              Toggler
 
 pause
 

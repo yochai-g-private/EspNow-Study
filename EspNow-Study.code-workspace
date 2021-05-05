@@ -1,19 +1,25 @@
 {
     "folders": [
         {
-            "name": "EspNowTest",
-            "path": "EspNowTest"
+            "name": "UniDirectional",
+            "path": "UniDirectional"
         },
         {
-            "name": "TestAsynchReceive",
-            "path": "TestAsynchReceive"
+            "name": "SD_Logger",
+            "path": "SD_Logger"
+        }
+		,
+        {
+            "name": "GetMAC",
+            "path": "GetMAC"
         }
     ],
     "settings": {
         "files.associations": {
             "*.tcc": "cpp",
             "string": "cpp",
-            "random": "cpp"
+            "random": "cpp",
+            "functional": "cpp"
         }
        }
 }
