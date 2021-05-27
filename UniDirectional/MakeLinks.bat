@@ -66,14 +66,14 @@ For %%A in ("%SOURCE%") do (
     Set TARGET=%TARGET_DIR%%%~nxA
 )
 
-mklink /H %TARGET%  %SOURCE%
+mklink %TARGET%  %SOURCE%
 
 goto :eof
 
 ::---------------------------
 :Link_NYG
 ::---------------------------
-mklink /H %Inc%NYG\%1.h   %Libraries%NYG\%1.h
+mklink %Inc%NYG\%1.h   %Libraries%NYG\%1.h
 
 ::call :MkLink_INC    NYG\%1.h       NYG\%1.h 
 goto :eof
@@ -88,7 +88,7 @@ goto :eof
 :MkLink
 ::---------------------------
 if exist %Libraries%%2   (
-    mklink /H %1   %Libraries%%2
+    mklink %1   %Libraries%%2
     ) else (
     echo %Libraries%%2 not found.
     )
