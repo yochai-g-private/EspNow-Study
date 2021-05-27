@@ -1,11 +1,17 @@
 #pragma once
 
 #include <ESP8266WiFi.h>
-#include <espnow.h>
+#include "EspNet.h"
 
 #include "RGB_Led.h"
 #include "Timer.h"
 #include "Toggler.h"
+
+#if 1
+#define ESPNET_TRACE()     LOGGER << __FUNCTION__ << " : " << __LINE__ << NL
+#else
+#define ESPNET_TRACE()
+#endif
 
 #define LOG_ERRORS      0
 

@@ -1,6 +1,10 @@
 {
     "folders": [
         {
+            "name": "EspNet_T1",
+            "path": "EspNet_T1"
+        },
+        {
             "name": "UniDirectional",
             "path": "UniDirectional"
         },
@@ -19,7 +23,8 @@
             "*.tcc": "cpp",
             "string": "cpp",
             "random": "cpp",
-            "functional": "cpp"
+            "functional": "cpp",
+            "type_traits": "cpp"
         }
        }
 }
