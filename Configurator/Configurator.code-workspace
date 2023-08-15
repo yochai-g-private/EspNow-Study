@@ -1,0 +1,13 @@
+{
+    "folders": [
+        {
+            "path": "Configurator"
+        },
+        {
+            "name": "Tester",
+            "path": "Tester"
+        }
+    ],
+    "settings": {
+       }
+}
